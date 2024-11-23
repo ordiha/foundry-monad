@@ -60,13 +60,13 @@ forge compile
 ### Build
 
 ```shell
-$ forge build
+forge build
 ```
 
 ### Test
 
 ```shell
-$ forge test
+forge test
 ```
 
 ### Deploy
@@ -84,31 +84,37 @@ forge verify-contract <contract_address> src/Counter.sol:Counter
 ### Format
 
 ```shell
-$ forge fmt
+forge fmt
 ```
 
 ### Gas Snapshots
 
 ```shell
-$ forge snapshot
+forge snapshot
 ```
 
 ### Anvil
 
 ```shell
-$ anvil
+anvil
 ```
 
 ### Cast
 
 ```shell
-$ cast <subcommand>
+cast <subcommand>
 ```
 
 ### Help
 
 ```shell
-$ forge --help
-$ anvil --help
-$ cast --help
+forge --help
+```
+
+```shell
+anvil --help
+```
+
+```shell
+cast --help
 ```

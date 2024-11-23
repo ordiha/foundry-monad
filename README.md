@@ -75,7 +75,7 @@ forge test
 forge create --private-key <your_private_key> src/Counter.sol:Counter
 ```
 
-### Verify Contract (BlockScout)
+### Verify Contract
 
 ```shell
 forge verify-contract <contract_address> src/Counter.sol:Counter

@@ -36,7 +36,7 @@ To get started, follow the steps below:
 1. You can either clone this repo using the below command:
 
 ```sh
-git clone https://github.com/monad-devrel/foundry-monad
+git clone https://github.com/monad-developers/foundry-monad
 ```
 
 or

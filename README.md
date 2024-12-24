@@ -44,7 +44,7 @@ or
 You can do it manually using the below set of commands:
 
 ```sh
-mkdir [project_name] && cd [project_name] && forge init --template monad-devrel/foundry-monad
+mkdir [project_name] && cd [project_name] && forge init --template monad-developers/foundry-monad
 ```
 
 The foundry project is now ready to be used!

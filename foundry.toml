@@ -4,7 +4,6 @@ out = "out"
 libs = ["lib"]
 
 # Monad Configuration
-# TODO: Add RPC URL and Chain ID
 eth-rpc-url="https://testnet-rpc.monad.xyz"
 chain_id = "10143"
 

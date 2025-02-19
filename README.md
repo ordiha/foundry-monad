@@ -1,9 +1,7 @@
 ## Foundry-Monad
 
 > [!NOTE]  
-> In this foundry template the default chain is `monadDevnet`, if you wish to change it change the network in `foundry.toml`
-
-<!-- TODO: Add Image -->
+> In this foundry template the default chain is `monadTestnet`, if you wish to change it change the network in `foundry.toml`
 
 <h4 align="center">
   <a href="https://docs.monad.xyz">Monad Documentation</a> | <a href="https://book.getfoundry.sh/">Foundry Documentation</a> | 
@@ -78,7 +76,11 @@ forge create --private-key <your_private_key> src/Counter.sol:Counter
 ### Verify Contract
 
 ```shell
-forge verify-contract <contract_address> src/Counter.sol:Counter
+forge verify-contract \
+  <contract_address> \
+  src/Counter.sol:Counter \
+  --verifier sourcify \
+  --verifier-url https://sourcify-api-monad.blockvision.org
 ```
 
 ### Format

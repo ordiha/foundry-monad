@@ -79,6 +79,7 @@ forge create --private-key <your_private_key> src/Counter.sol:Counter
 forge verify-contract \
   <contract_address> \
   src/Counter.sol:Counter \
+  --verify \
   --verifier sourcify \
   --verifier-url https://sourcify-api-monad.blockvision.org
 ```
